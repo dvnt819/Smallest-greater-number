@@ -14,10 +14,10 @@ int main()
         n=n+1;
     }
 
-    //declaring to array of total digits.
+    //declaring an array of total digits.
     int num[n];
     
-    //save digits of at differnt index in array.
+    //save digits of number at differnt index in array.
     for(int i=n-1;i>=0;i--)
     {
         a =input%10;
