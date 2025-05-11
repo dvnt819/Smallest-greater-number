@@ -43,7 +43,7 @@ int main()
     //checking from right, at which index in array, the right-side digit is greater then the left one.
     for(int i=n-1;i>=0;i--)
     {
-        if(num[i]<num[i-1])
+        if(num[i]<=num[i-1])
         {
             count=count+1;
         }
